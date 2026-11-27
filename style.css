@@ -64,3 +64,14 @@ main{max-width:none}.hero{position:relative;isolation:isolate;background:var(--s
 .trip-archive-toggle{min-height:44px;flex:none;padding:7px 12px;border:1px solid #dedecf;border-radius:24px;background:#fffdf7;color:var(--ink);font-size:12px}
 .trip-archive-toggle.active{background:#326449;border-color:#326449;color:#fff}
 @media(max-width:480px){.trip-toolbar{padding:0 6px}.trip-filters{gap:6px}.trip-filters button strong{font-size:14px}.trip-filters button span{font-size:11px}.trip-tools #search{padding-inline:12px}}
+
+.event-list{background:#fff7de;border:1.5px solid #d76c43;border-radius:14px;padding:14px 12px;margin:0 0 17px;color:#934329}
+.event-list .deadline-label{margin-bottom:8px}
+.event-item{border-top:1px dashed #e4b89a;padding:8px 0 2px}
+.event-list .event-item:first-of-type{border-top:0;padding-top:0}
+.event-item strong{display:block;font-size:14px;line-height:1.6}
+.event-item b{display:block;font-size:12px;font-weight:700;margin:2px 0}
+.event-item b span{font-size:11px;font-weight:500;margin:0 4px}
+.event-item span{display:block;font-size:11px}
+.event-item p{font-size:10px;line-height:1.8;margin:4px 0 0;color:#996e51}
+@media(max-width:650px){.event-item strong{font-size:16px}.event-item b{font-size:14px}.event-item span,.event-item p{font-size:12px}}
